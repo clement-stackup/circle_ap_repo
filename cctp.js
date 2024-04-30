@@ -24,10 +24,7 @@ const web3 = new Web3();
 // Step 3 - Enter Destination Wallet Address on Polygon Amoy
 const destinationAddress = "REPLACE WITH YOUR WALLET ADDRESS ON POLYGON AMOY";
 
-const encoded_destinationAddress = web3.eth.abi.encodeParameter(
-  "address",
-  destinationAddress
-);
+const encoded_destinationAddress = "";
 
 // Step 4 - Burn USDC on Ethereum Sepolia
 async function burnUSDC() {}
