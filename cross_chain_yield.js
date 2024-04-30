@@ -32,10 +32,7 @@ const web3 = new Web3();
 // Step 3 - Enter Destination Address on Ethereum Sepolia
 const destinationAddress = "REPLACE WITH WALLET ADDRESS ON ETHEREUM SEPOLIA";
 
-const encoded_destinationAddress = web3.eth.abi.encodeParameter(
-  "address",
-  destinationAddress
-);
+const encoded_destinationAddress = "";
 
 // Step 4 - Burn USDC on Polygon Amoy
 async function burnUSDC() {}
